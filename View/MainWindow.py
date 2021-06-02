@@ -36,9 +36,9 @@ class MainWindow(QMainWindow):
         self.ui.frame_title.mouseMoveEvent = moveWindow
         UIFunctions.uiDefinitions(self)
         self.show()
-        #0.9, 0.7, 0.0061, 0.0021, 1.3, 1.2, 405.0, 50.0, 10.0
+
         params = {
-                'a1': 0.9, 'a2': 0.7, 'b1': 0.0061, 'b2': 0.0021, # фикс (0, 2*x)
+                'a1': 0.9, 'a2': 0.7, 'b1': 0.0061, 'b2': 0.0021,
                 'time': 30., 'dt': 0.1,
                 't1': 1.3, 't2': 1.2,
                 'x1*': 100.0, 'x1_0': 20.0, 'x2_0': 10.0

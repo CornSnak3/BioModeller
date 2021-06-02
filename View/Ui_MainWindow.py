@@ -365,7 +365,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
         self.frame_graphs_top = QFrame(self.page_graphs)
         self.frame_graphs_top.setObjectName(u"frame_graphs_top")
-        self.frame_graphs_top.setFrameShape(QFrame.StyledPanel)
+        self.frame_graphs_top.setFrameShape(QFrame.NoFrame)
         self.frame_graphs_top.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_6 = QHBoxLayout(self.frame_graphs_top)
         self.horizontalLayout_6.setObjectName(u"horizontalLayout_6")
@@ -373,6 +373,110 @@ class Ui_MainWindow(object):
         self.frame_model_settings.setObjectName(u"frame_model_settings")
         self.frame_model_settings.setFrameShape(QFrame.StyledPanel)
         self.frame_model_settings.setFrameShadow(QFrame.Raised)
+        self.gridLayout = QGridLayout(self.frame_model_settings)
+        self.gridLayout.setObjectName(u"gridLayout")
+        self.gridLayout.setHorizontalSpacing(20)
+        self.label_2 = QLabel(self.frame_model_settings)
+        self.label_2.setObjectName(u"label_2")
+
+        self.gridLayout.addWidget(self.label_2, 0, 0, 1, 1)
+
+        self.lineEdit = QLineEdit(self.frame_model_settings)
+        self.lineEdit.setObjectName(u"lineEdit")
+
+        self.gridLayout.addWidget(self.lineEdit, 0, 1, 1, 2)
+
+        self.label_6 = QLabel(self.frame_model_settings)
+        self.label_6.setObjectName(u"label_6")
+
+        self.gridLayout.addWidget(self.label_6, 0, 3, 1, 1)
+
+        self.lineEdit_5 = QLineEdit(self.frame_model_settings)
+        self.lineEdit_5.setObjectName(u"lineEdit_5")
+
+        self.gridLayout.addWidget(self.lineEdit_5, 0, 4, 1, 2)
+
+        self.label_3 = QLabel(self.frame_model_settings)
+        self.label_3.setObjectName(u"label_3")
+
+        self.gridLayout.addWidget(self.label_3, 1, 0, 1, 1)
+
+        self.lineEdit_2 = QLineEdit(self.frame_model_settings)
+        self.lineEdit_2.setObjectName(u"lineEdit_2")
+
+        self.gridLayout.addWidget(self.lineEdit_2, 1, 1, 1, 2)
+
+        self.label_7 = QLabel(self.frame_model_settings)
+        self.label_7.setObjectName(u"label_7")
+
+        self.gridLayout.addWidget(self.label_7, 1, 3, 1, 1)
+
+        self.lineEdit_6 = QLineEdit(self.frame_model_settings)
+        self.lineEdit_6.setObjectName(u"lineEdit_6")
+
+        self.gridLayout.addWidget(self.lineEdit_6, 1, 4, 1, 2)
+
+        self.label_4 = QLabel(self.frame_model_settings)
+        self.label_4.setObjectName(u"label_4")
+
+        self.gridLayout.addWidget(self.label_4, 2, 0, 1, 1)
+
+        self.lineEdit_3 = QLineEdit(self.frame_model_settings)
+        self.lineEdit_3.setObjectName(u"lineEdit_3")
+
+        self.gridLayout.addWidget(self.lineEdit_3, 2, 1, 1, 2)
+
+        self.label_8 = QLabel(self.frame_model_settings)
+        self.label_8.setObjectName(u"label_8")
+
+        self.gridLayout.addWidget(self.label_8, 2, 3, 1, 1)
+
+        self.lineEdit_7 = QLineEdit(self.frame_model_settings)
+        self.lineEdit_7.setObjectName(u"lineEdit_7")
+
+        self.gridLayout.addWidget(self.lineEdit_7, 2, 4, 1, 2)
+
+        self.label_5 = QLabel(self.frame_model_settings)
+        self.label_5.setObjectName(u"label_5")
+
+        self.gridLayout.addWidget(self.label_5, 3, 0, 1, 1)
+
+        self.lineEdit_4 = QLineEdit(self.frame_model_settings)
+        self.lineEdit_4.setObjectName(u"lineEdit_4")
+
+        self.gridLayout.addWidget(self.lineEdit_4, 3, 1, 1, 2)
+
+        self.label_9 = QLabel(self.frame_model_settings)
+        self.label_9.setObjectName(u"label_9")
+
+        self.gridLayout.addWidget(self.label_9, 3, 3, 1, 1)
+
+        self.lineEdit_8 = QLineEdit(self.frame_model_settings)
+        self.lineEdit_8.setObjectName(u"lineEdit_8")
+
+        self.gridLayout.addWidget(self.lineEdit_8, 3, 4, 1, 2)
+
+        self.label = QLabel(self.frame_model_settings)
+        self.label.setObjectName(u"label")
+
+        self.gridLayout.addWidget(self.label, 4, 0, 1, 1)
+
+        self.comboBox = QComboBox(self.frame_model_settings)
+        self.comboBox.setObjectName(u"comboBox")
+
+        self.gridLayout.addWidget(self.comboBox, 4, 1, 1, 1)
+
+        self.progressBar = QProgressBar(self.frame_model_settings)
+        self.progressBar.setObjectName(u"progressBar")
+        self.progressBar.setValue(24)
+
+        self.gridLayout.addWidget(self.progressBar, 4, 2, 1, 3)
+
+        self.pushButton = QPushButton(self.frame_model_settings)
+        self.pushButton.setObjectName(u"pushButton")
+
+        self.gridLayout.addWidget(self.pushButton, 4, 5, 1, 1)
+
 
         self.horizontalLayout_6.addWidget(self.frame_model_settings)
 
@@ -396,13 +500,13 @@ class Ui_MainWindow(object):
 
         self.frame_graphs_bottom = QFrame(self.page_graphs)
         self.frame_graphs_bottom.setObjectName(u"frame_graphs_bottom")
-        self.frame_graphs_bottom.setFrameShape(QFrame.StyledPanel)
+        self.frame_graphs_bottom.setFrameShape(QFrame.NoFrame)
         self.frame_graphs_bottom.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_12 = QHBoxLayout(self.frame_graphs_bottom)
         self.horizontalLayout_12.setObjectName(u"horizontalLayout_12")
         self.frame_graph_phase = QFrame(self.frame_graphs_bottom)
         self.frame_graph_phase.setObjectName(u"frame_graph_phase")
-        self.frame_graph_phase.setFrameShape(QFrame.StyledPanel)
+        self.frame_graph_phase.setFrameShape(QFrame.NoFrame)
         self.frame_graph_phase.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_14 = QHBoxLayout(self.frame_graph_phase)
         self.horizontalLayout_14.setObjectName(u"horizontalLayout_14")
@@ -417,7 +521,7 @@ class Ui_MainWindow(object):
 
         self.frame_graph_2 = QFrame(self.frame_graphs_bottom)
         self.frame_graph_2.setObjectName(u"frame_graph_2")
-        self.frame_graph_2.setFrameShape(QFrame.StyledPanel)
+        self.frame_graph_2.setFrameShape(QFrame.NoFrame)
         self.frame_graph_2.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_15 = QHBoxLayout(self.frame_graph_2)
         self.horizontalLayout_15.setObjectName(u"horizontalLayout_15")
@@ -466,5 +570,15 @@ class Ui_MainWindow(object):
         self.btn_menu_open.setText("")
         self.btn_menu_help.setText("")
         self.btn_menu_exit.setText("")
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
+        self.label_6.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
+        self.label_7.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
+        self.label_4.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
+        self.label_8.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
+        self.label_5.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
+        self.label_9.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
+        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
     # retranslateUi
 
