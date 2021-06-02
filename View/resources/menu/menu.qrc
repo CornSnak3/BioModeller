@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="resorces/menu">
+    <file>Close-50.png</file>
+    <file>Home-50.png</file>
+    <file>Chart-Axes-50.png</file>
+    <file>Document-Add-01-50.png</file>
+    <file>Floppy-50.png</file>
+    <file>Help-50.png</file>
+    <file>Open-50.png</file>
+    <file>Row-50.png</file>
+    <file>Settings-01-50.png</file>
+  </qresource>
+</RCC>
