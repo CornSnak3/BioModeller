@@ -3,6 +3,7 @@ import math
 
 class LotkaVolterra(object):
     def __init__(self, params):
+        self.l_goal = params['time']
         self.time = params['time']
         self.dt = params['dt']
         self.n = math.floor(self.time/self.dt)
